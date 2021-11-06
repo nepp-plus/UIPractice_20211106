@@ -29,5 +29,16 @@
         android:hint="8글자 이상으로 입력"
         android:inputType="textPassword"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="닉네임" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:hint="자유 입력" />
+
 
 </LinearLayout>
